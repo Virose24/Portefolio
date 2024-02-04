@@ -1,0 +1,76 @@
+body{
+    background-color:rgb(21, 20, 27);
+    font-family: "Montserrat";
+    color: white;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: -40px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.navbar li{
+    display:inline-block;
+}
+#name{
+    font-family: "Montserrat";
+    color: white;
+    padding-left: 15px;
+    font-size: 20px;
+}
+hr{
+    border-color: black;
+}   
+#intro{
+    font-size: 85px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cor{
+    color: #23cf7f;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#mainbox
+{
+width: 750px;
+height: 610px;
+margin: auto;
+padding: 10px;
+font-family: "Montserrat";
+justify-content: space-between;
+align-items: center;
+margin-top: auto;
+font-size: 18px;
+}
+#l3
+{
+    line-height: 1.4;
+}
+.fa-github
+{
+    position: relative;
+    left: 500px;
+    font-size: 25px;
+}
+.fa-linkedin
+{
+    position:relative;
+    left:515px;
+    font-size: 25px;
+}
+h5{
+    display: flex;
+    justify-content: center;
+}
