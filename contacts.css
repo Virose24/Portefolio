@@ -27,35 +27,6 @@ body{
 }
 hr{
     border-color: black;
-}   
-#intro{
-    font-size: 85px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.cor{
-    color: #23cf7f;
-}
-h2{
-    text-align: center;
-}
-h3{
-    text-align: center;
-}
-#mainbox
-{
-width: 750px;
-height: 580px;
-margin: auto;
-padding: 10px;
-justify-content: space-between;
-align-items: center;
-margin-top: auto;
-font-size: 18px;
-}
-#l3
-{
-    line-height: 1.4;
 }
 .fa-github
 {
@@ -69,11 +40,43 @@ font-size: 18px;
     left:515px;
     font-size: 25px;
 }
-h5{
+li{
+    position:relative;
+    left: 50px; 
+ }
+ #intro
+ {
+        font-size: 65px;
+        text-align: center;
+        margin-bottom: 10px;
+ }
+.center{
+    text-align: center;
+ }
+.fa-envelope{
+    font-size: 25px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    padding: -200px;
+ }
+#simplify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+#mainbox
+{
+    width: 750px;
+    height: 500px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-li{
-   position:relative;
-   left: 50px; 
+#linha{
+    margin-top:110px;
 }
